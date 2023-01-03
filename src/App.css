@@ -34,4 +34,9 @@
 .latest-brand a {
     font-size: 1.8rem;
     color: white;
+    transition: 250ms;
+}
+
+.latest-brand a:hover {
+    color: lightcoral;
 }

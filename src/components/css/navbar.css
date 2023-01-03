@@ -22,4 +22,11 @@
     position: relative;
     font-size: 2rem;
     color: #ffffff;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+.navbar ul li a:hover {
+    color: #808080;
+    text-decoration: underline;
 }
