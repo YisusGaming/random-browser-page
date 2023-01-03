@@ -4,6 +4,18 @@
     grid-template-rows: auto 1fr;
 }
 
+/* Default link styles */
+a {
+    color: #f08080;
+    transition: 250ms;
+}
+
+a:hover {
+    color: #f05050;
+}
+
+/* END: Default link styles */
+
 .latest-brand {
     position: relative;
     display: flex;
@@ -13,7 +25,7 @@
     align-items: center;
     height: 50%;
     width: 50%;
-    margin: 20px auto;
+    margin: auto;
 }
 
 .latest-brand h1 {
@@ -38,5 +50,34 @@
 }
 
 .latest-brand a:hover {
+    color: #f08080;
+}
+
+.info-wrap {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.info-wrap .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #303030;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    margin: 0 8px;
+    border-radius: 8px;
+}
+
+.info-wrap .card h1 {
+    font-family: 'Ubuntu', sans-serif;
     color: lightcoral;
+    opacity: .7;
+    margin-bottom: 8px;
+}
+
+.info-wrap .card p {
+    font-size: 1.2rem;
 }
