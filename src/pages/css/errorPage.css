@@ -1,0 +1,16 @@
+.err-page {
+    grid-area: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.err-page h1 {
+    opacity: .8;
+    font-size: 2.8rem;
+}
+
+.err-page a {
+    font-size: 1.5rem;
+}
