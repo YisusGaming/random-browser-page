@@ -1,0 +1,17 @@
+.working-on-docs {
+    margin: auto;
+    text-align: center;
+    background: #101010;
+    width: 70%;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.working-on-docs h1 {
+    opacity: .6;
+}
+
+.working-on-docs p {
+    font-size: 1.3rem;
+    color: #f08080;
+}
