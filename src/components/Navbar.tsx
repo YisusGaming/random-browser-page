@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className='navbar'>
             <ul>
                 <li>
-                    <NavLink to='/random-browser'>Home</NavLink>
+                    <NavLink to='/random-browser'>Main Page</NavLink>
                 </li>
                 <li>
                     <NavLink to='/random-browser/docs'>Documentation</NavLink>
