@@ -5,7 +5,7 @@ export default function App() {
     return (
         <>
             <Navbar />
-            <h1>Hi mom!</h1>
+            <h1>Content</h1>
         </>
     );
 }
