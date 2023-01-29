@@ -6,7 +6,7 @@ export default function App() {
         <>
             <Navbar />
             <div className="latest-brand">
-                <h1><span id="current-version">1.2.0</span> is here!</h1>
+                <h1><span id="current-version">1.2.2</span> is here!</h1>
                 <a target='_blank' href="https://github.com/YisusGaming/random-browser/releases/latest">Download {"->"}</a>
             </div>
             <div className="info-wrap">
