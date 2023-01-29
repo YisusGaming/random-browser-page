@@ -6,13 +6,13 @@ export default function Navbar() {
         <nav className='navbar'>
             <ul>
                 <li>
-                    <NavLink to='/random-browser'>Main Page</NavLink>
+                    <NavLink to='/random-browser-page'>Main Page</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/random-browser/docs'>Documentation</NavLink>
+                    <NavLink to='/random-browser-page/docs'>Documentation</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/random-browser/downloads'>Downloads</NavLink>
+                    <NavLink to='/random-browser-page/downloads'>Downloads</NavLink>
                 </li>
             </ul>
         </nav>

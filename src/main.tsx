@@ -11,10 +11,10 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
         <Router>
             <Routes>
-                <Route path='/random-browser' element={<App />} />
-                <Route path='/random-browser/docs' element={<DocsPage />} />
-                <Route path='/random-browser/downloads' element={<DownloadsPage />} />
-                <Route path='/random-browser/*' element={<ErrorPage message='Not Found' status={404} link='/random-browser' linkText='Go back to Main Page' />} />
+                <Route path='/random-browser-page' element={<App />} />
+                <Route path='/random-browser-page/docs' element={<DocsPage />} />
+                <Route path='/random-browser-page/downloads' element={<DownloadsPage />} />
+                <Route path='/random-browser-page/*' element={<ErrorPage message='Not Found' status={404} link='/random-browser-page' linkText='Go back to Main Page' />} />
             </Routes>
         </Router>
     </React.StrictMode>
